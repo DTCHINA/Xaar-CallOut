@@ -1,0 +1,10 @@
+// The below table is created in heroku.
+
+CREATE TABLE
+    account_tb
+    (
+        salesforceid VARCHAR(50),
+        custnum INTEGER,
+        name VARCHAR(50),
+        id bigserial primary key
+    );
